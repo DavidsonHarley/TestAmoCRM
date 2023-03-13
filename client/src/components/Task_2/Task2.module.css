@@ -6,9 +6,8 @@ footer{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    width: 1141px;
+    width: 1100px;
     height: 315px;
-    left: 149px;
     bottom: 0px;
 }
 header{
@@ -39,6 +38,10 @@ header{
     flex-direction: column;
     align-items: center;
     min-height: 100%;
+    object-fit: contain;
+    background: url(../../../public/img/Desktop.png) no-repeat;
+    background-size: 1450px;
+    
 }
 
  .logo{
@@ -144,7 +147,7 @@ header{
 
  .containerInfo{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
  }
 
  .footerContacts{
@@ -152,7 +155,7 @@ header{
     flex-direction: column;
     align-items: flex-end;
  }
-
+ 
  .imgContacts{
     display: flex;
     align-items: center;
@@ -183,3 +186,100 @@ header{
     text-align: right;
     color: #E4E5EA;
  }
+
+ .containerMain{
+   display: flex;
+   width: 1100px;
+   justify-content: space-between;
+ }
+
+ .textContent1{
+   padding-bottom: 10px;
+   margin-top: 90px;
+   width: 362px;
+   height: 116px;
+   left: 147px;
+   top: 209px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 58px;
+   color: #E4E5EA;
+ }
+
+ .textContent1par{
+   margin-top: 30px;
+   width: 275px;
+   height: 44px;
+   left: 148px;
+   top: 413px;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   color: #E4E5EA;
+ }
+
+.content2{
+   display: flex;
+   margin-top: 90px;
+   padding-right: 30px;
+   flex-direction: column;
+   align-items: flex-end;
+}
+
+.containerInfoContent2{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   width: 350px;
+   margin-top: 40px;
+}
+
+.containerCategory{
+   display: flex;
+   flex-direction: column;
+   width: 164px;
+   height: 90px;
+}
+
+
+.categoryText{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 22px;
+   text-align: right;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   color: #E4E5EA;
+}
+
+.textPar{
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: right;
+   color: #E4E5EA;
+}
+
+.button{
+   margin-top: 61px ;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   color: #E4E5EA;
+   width: 262px;
+   height: 61px;
+   left: 0px;
+   top: 0px;
+   background: #4077F3;
+}

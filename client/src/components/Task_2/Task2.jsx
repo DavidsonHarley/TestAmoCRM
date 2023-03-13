@@ -2,8 +2,8 @@ import React from 'react';
 import Footer from './Footer';
 
 import Header from './Header';
+import Main from './Main';
 import styles from './Task2.module.css';
-import { menuFooter, menuHeader } from './text';
 
 export default function Task2() {
   return (
@@ -12,11 +12,12 @@ export default function Task2() {
         <Header />
       </header>
       <main>
-        <div>MAIN</div>
+        <Main />
       </main>
       <footer>
         <Footer />
       </footer>
     </div>
+
   );
 }
