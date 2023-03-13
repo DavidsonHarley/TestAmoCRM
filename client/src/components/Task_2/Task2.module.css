@@ -1,0 +1,185 @@
+main{
+    min-height: calc(100vh - 80px);
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 1141px;
+    height: 315px;
+    left: 149px;
+    bottom: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 1140px;
+    height: 73px;
+    left: 150px;
+    margin-top: 46px;
+}
+
+.number{
+    width: 143px;
+    height: 19px;
+    left: 998px;
+    top: 92px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+ .logo{
+    width: 140px;
+    height: 24px;
+    left: 0px;
+    top: 11px;
+}
+
+.logoInfo{
+    margin-top: 10px;
+    width: 165px;
+    height: 24px;
+    left: 0px;
+    top: 45px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #E4E5EA;
+}
+
+ .navigation{
+    display: flex;
+    justify-content: space-around;
+    width: 503px;
+    height: 19px;
+    left: 192px;
+    top: 15px;
+
+ }
+
+ .navigationName{
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+ }
+
+
+ .headerСontacts{
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+ }
+
+ .textFooter{
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+ }
+
+ .textHeading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+
+ }
+
+ .containerMenu{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 410px;
+    height: 235px;
+ }
+
+ .textMenu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 205px;
+    height: 40px;
+    left: 39px;
+    top: 63px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+ }
+
+ .containerInfo{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .footerContacts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+ }
+
+ .imgContacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    margin: 20px 0 20px 0;
+ }
+
+ .containerСonfidentiality{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 37,7px ;
+    padding-bottom: 20px;
+    width: 1100px;
+ }
+
+ .textСonfidentiality{
+    width: 239px;
+    height: 15px;
+    left: 902px;
+    top: 260px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #E4E5EA;
+ }
